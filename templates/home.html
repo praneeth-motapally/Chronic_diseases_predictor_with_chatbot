@@ -1,0 +1,25 @@
+{% extends 'main.html' %}
+
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <body style="background-image: url('/static/back_img.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+<div class="container">
+    <br><br><br><br><br><br>
+    <h2 style="color: white; font-size: 46px;">This is Machine Learning and Deep Learning based WebApp.</h2>
+        <p style="color: white; font-size: 30px;">These Machine Learning models and Deep Leaning models are trained on large datasets and thousands of images.</p>
+        <p style="color: white; font-size: 25px;">Use the chatBot below to type symptoms and learn more about diseases:</p>
+        <button type="button" class="btn btn-primary custom-btn" onclick="window.location.href='http://127.0.0.1:8080' ">Chat Bot</button>
+
+
+
+  
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+</div>
+</body>
+
+{% endblock %}

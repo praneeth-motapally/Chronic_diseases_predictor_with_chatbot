@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <body style="background-image: url('/static/back_img.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+<div class="container">
+    <br><br><br><br><br><br>
+    <h2 style="color: white; font-size: 46px;">Understanding Heart: Causes and Symptoms</h2>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Heart</h4>
+                <p>Heart disease refers to a range of conditions that affect the heart's structure and function, leading to impaired cardiovascular health. Common types include coronary artery disease, which involves the narrowing or blockage of blood vessels supplying the heart; arrhythmias, or irregular heart rhythms; and heart valve issues that disrupt normal blood flow. Heart disease often develops from the buildup of plaque in the arteries, known as atherosclerosis, caused by factors like poor diet, lack of exercise, smoking, high blood pressure, high cholesterol, and diabetes. Symptoms can vary but may include chest pain, shortness of breath, fatigue, dizziness, and swelling in the legs or feet. If untreated, it can result in complications such as heart attacks, heart failure, or strokes. Early detection, lifestyle changes, medications, and medical procedures can significantly manage and reduce risks associated with heart disease.</p>
+                <h5>Symptoms</h5>
+                
+                    <li>Chest Pain or Discomfort.</li>
+                    <li>Shortness of Breath.</li>
+                    <li>fatigue.</li>
+                    <li>Swelling in the Legs, Ankles, or Feet (Edema).</li>
+                
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        
+
+    </div>
+</div>
+</body>
+{% endblock %}

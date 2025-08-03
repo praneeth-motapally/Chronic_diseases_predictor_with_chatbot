@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <body style="background-image: url('/static/back_img.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+<div class="container">
+    <br><br><br><br><br><br>
+    <h2 style="color: white; font-size: 46px;">Understanding Diabetes: Causes and Symptoms</h2>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Diabetes</h4>
+                <p>Diabetes is a chronic condition that occurs when your blood glucose, commonly known as blood sugar, becomes excessively high. Blood glucose is the body's primary source of energy, derived from the food you consume. This energy is transported to your cells with the help of insulin, a vital hormone produced by the pancreas. Insulin facilitates the movement of glucose from your bloodstream into your cells, where it is utilized for energy. However, in diabetes, the body either doesn’t produce enough insulin, fails to produce it at all, or cannot use it effectively. As a result, glucose remains in the bloodstream, leading to elevated blood sugar levels and depriving your cells of the energy they need. Over time, this imbalance can cause severe health complications, affecting various organs and systems in the body.</p>
+                <h5>Symptoms</h5>
+                
+                    <li>Urinating often.</li>
+                    <li>Feeling very thirsty.</li>
+                    <li>Extreme fatigue.</li>
+                    <li>Blurry vision.</li>
+                
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        
+
+    </div>
+</div>
+</body>
+{% endblock %}

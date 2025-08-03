@@ -1,0 +1,47 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<style>
+    .login {
+    background-color: transparent !important;
+    width: 1300px;
+    height: 530px;
+    border: 3px solid white;
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* Change from absolute */
+    display: flex;
+    flex-direction: column; /* Ensure items stack vertically */
+    align-items: flex-start; /* Align content to the top */
+    justify-content: flex-start; 
+}
+
+</style>
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <body style="background-image: url('/static/back_img.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+<div class="container">
+    <br><br><br><br>
+    <h2 style="color: white; font-size: 46px;">About Us</h2>
+    <div class="login">  <!-- Changed <login> to <div class="login"> -->
+        <p style="color: white; font-size: 25px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our project, Chronic Disease Prediction with Integrated Chatbot, aims to leverage machine learning and AI-driven chatbot technology to enhance early detection and awareness of chronic diseases. The primary goal is to provide users with an accessible and intelligent platform that predicts potential health risks based on symptoms and medical data while offering real-time guidance through an interactive chatbot. By integrating predictive analytics with conversational AI, we strive to empower individuals with timely insights, promote preventive healthcare, and bridge the gap between technology and medical awareness, ultimately contributing to improved health outcomes.
+          <br><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the future, we plan to enhance our project by improving prediction accuracy, expanding disease coverage, and integrating real-time health monitoring. Advancing the chatbot with better NLP will enable more personalized health insights, making it a valuable tool for early detection and preventive care.
+        </p>
+    </div>
+        
+
+
+
+  
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+</div>
+</body>
+
+{% endblock %}

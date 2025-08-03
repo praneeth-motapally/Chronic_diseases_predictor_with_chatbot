@@ -1,0 +1,67 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<style>
+    .login {
+    background-color: transparent !important;
+    width: 1300px;
+    height: 500px;
+    border: 3px solid white;
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* Change from absolute */
+    display: flex;
+    flex-direction: column; /* Ensure items stack vertically */
+    align-items: flex-start; /* Align content to the top */
+    justify-content: flex-start; 
+}
+
+</style>
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <body style="background-image: url('/static/back_img.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+<div class="container">
+    <br><br><br><br><br><br>
+    <h2 style="color: white; font-size: 46px;">Contact Us</h2>
+    <div class="login">  <!-- Changed <login> to <div class="login"> -->
+        <p style="color: white; font-size: 25px;">
+            <h2 style="color: white; font-size: 35px;">
+                Phno: <span style="font-size: 30px;">+91 999999999</span>
+            </h2>
+            <br>
+            <h2 style="color: white; font-size: 35px;">
+                Mail: <span style="font-size: 30px;">mail@gmail.com</span> 
+            </h2>
+            <br>
+            <h2 style="color: white; font-size: 35px;">
+                Social Media Link : <a href="https://www.facebook.com/yourpage" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="50px">
+                </a>
+                
+                <a href="https://www.instagram.com/yourpage" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="50px">
+                </a>
+                
+                </a>
+                </span> 
+            </h2>
+            
+            
+        </p>
+    </div>
+        
+
+
+
+  
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+</div>
+</body>
+
+{% endblock %}

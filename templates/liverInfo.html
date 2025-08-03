@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <body style="background-image: url('/static/back_img.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+<div class="container">
+    <br><br><br><br><br><br>
+    <h2 style="color: white; font-size: 46px;">Understanding Chronic Liver disease: Causes and Symptoms</h2>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Liver disease</h4>
+                <p>Liver disease refers to any condition that affects the liver’s ability to function properly. The liver is a vital organ that helps detoxify harmful substances, metabolize nutrients, produce proteins and hormones, and store energy. When the liver is damaged, it can lead to a variety of health problems. Common liver diseases include hepatitis (inflammation of the liver), fatty liver disease (excess fat buildup), cirrhosis (scarring of the liver tissue), and liver cancer. The causes of liver disease range from viral infections, alcohol consumption, obesity, and autoimmune disorders to genetic conditions. Symptoms of liver disease may include jaundice (yellowing of the skin and eyes), abdominal pain or swelling, fatigue, dark urine, and unexplained weight loss. Early detection and treatment are crucial in preventing further liver damage and complications.</p>
+                <h5>Symptoms</h5>
+                
+                <li>Jaundice</li>
+                <li>Fatigue</li>
+                <li>Abdominal Pain or Swelling</li>
+                <li>Dark Urine</li>
+                
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        
+
+    </div>
+</div>
+</body>
+{% endblock %}
