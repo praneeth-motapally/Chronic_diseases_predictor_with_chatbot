@@ -1,7 +1,7 @@
 # Chronic Diseases Predictor With Chatbot
 
 ## Overview
-This project presents a machine learning-based web application for the early prediction of chronic diseases. The system is designed to provide proactive healthcare by analyzing patient data and predicting the likelihood of various chronic conditions. By leveraging advanced machine learning algorithms, the goal is to assist medical professionals in making faster, more accurate diagnoses and to shift the focus from reactive treatment to preventive care.
+This project is a web application that uses machine learning to predict chronic diseases. It helps healthcare providers make faster and more accurate diagnoses by analyzing patient data. The system also includes a chatbot for general health information. The main goal is to promote preventive care by identifying health risks early.
 
 ## Key Features
 **Multi-Disease Prediction:** The application can predict the likelihood of several chronic diseases, including:
